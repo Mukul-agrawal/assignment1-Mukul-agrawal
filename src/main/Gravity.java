@@ -4,7 +4,7 @@
  * */
 package main;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 
 public class Gravity {
@@ -14,6 +14,9 @@ public class Gravity {
 		double distance;
 		double time;
 		double g=9.8;
+		Scanner sc =new scanner(System.in);
+		System.out.println("Enter the time");
+		time=sc.nextDouble();
 	}
 
 }
